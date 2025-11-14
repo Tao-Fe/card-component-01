@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+/* Kart */
+#card {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 0 transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Resim */
+#card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Hover */
+#card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* AI-assisted: shadow optimization */
